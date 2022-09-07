@@ -54,8 +54,7 @@
             </div>
             <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
                 <h2 class="h6 mb-3">Company</h2>
-                <p class="text-secondary">Legalito is a portfolio theme based on Bootstrap 5 and created by <a
-                        href="https://webvy.xyz/" target="_blank" rel="noopener">webvy</a>.</p>
+                <p class="text-secondary"><a href="https://app.legalito.co.uk/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
             </div>
         </div>
     </div>

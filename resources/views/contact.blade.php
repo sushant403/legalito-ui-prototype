@@ -3,5 +3,5 @@
 @section('description')
 
 @section('content')
-    
+
 @endsection

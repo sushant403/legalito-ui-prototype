@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Home - Legalito')
+@section('title', 'Product - Legalito')
 @section('description')
 
 @section('content')

@@ -5,7 +5,7 @@
 @section('content')
     <div class="container py-5">
         <div class="col-xxl-10">
-            <p class="w-25 my-4 legalito-gold">We know conveyancing.</p>
+            <p class="my-4 legalito-gold">We know conveyancing.</p>
             <div class="border border-2 border-light w-25 my-4"></div>
             <h1 class="display-1">Legalito.</h1>
         </div>
@@ -16,221 +16,94 @@
         </div>
     </div>
 
-    <div class="container py-4">
-        <ul class="row list-unstyled gy-4">
-            <li class="col-md-6">
-                <a href="portfolio-1.html" class="d-inline-block">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('img/portfolio-1.jpg') }}" alt="" class="img-thumbnail"
-                                width="800" height="550">
-                            <div class="img-hover">
-                                <div class="img-text">View Page</div>
-                            </div>
+    <div class="container my-4">
+        <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="col-lg-8 order-lg-2">
+                <a href="#0" class="d-inline-block">
+                    <figure class="img-overlay mb-0">
+                        <img src="{{ asset('img/home-legalito.png') }}" alt="Legalito" class="img-thumbnail" width="800"
+                            height="550">
+                        <div class="img-hover">
+                            <p class="img-text">View Product</p>
                         </div>
-                        <figcaption class="h4 fw-normal text-center">Architecture</figcaption>
                     </figure>
                 </a>
-            </li>
-            <li class="col-md-6">
-                <a href="portfolio-2.html" class="d-inline-block">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('img/portfolio-2.jpg') }}" alt="" class="img-thumbnail"
-                                width="800" height="550">
-                            <div class="img-hover">
-                                <div class="img-text">View Page</div>
-                            </div>
-                        </div>
-                        <figcaption class="h4 fw-normal text-center">Interior Design</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="col-md-6">
-                <a href="portfolio-3.html" class="d-inline-block">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('img/portfolio-3.jpg') }}" alt="" class="img-thumbnail"
-                                width="800" height="550">
-                            <div class="img-hover">
-                                <div class="img-text">View Page</div>
-                            </div>
-                        </div>
-                        <figcaption class="h4 fw-normal text-center">Photography</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="col-md-6">
-                <a href="portfolio-4.html" class="d-inline-block">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('img/portfolio-4.jpg') }}" alt="" class="img-thumbnail"
-                                width="800" height="550">
-                            <div class="img-hover">
-                                <div class="img-text">View Page</div>
-                            </div>
-                        </div>
-                        <figcaption class="h4 fw-normal text-center">Web Design</figcaption>
-                    </figure>
-                </a>
-            </li>
-        </ul>
-        <div class="text-center my-4 my-md-5">
-            <a href="pages.html" class="btn btn-outline-light">View all pages</a>
+            </div>
+            <div class="col-lg-4 order-lg-1">
+                <h2 class="fw-normal">Years of Experience</h2>
+                <p class="fw-light text-light">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <a href="#0" class="link-underline">View Product</a>
+            </div>
         </div>
     </div>
 
-    <div class="bg-white text-black">
+
+    <div class="bg-black text-light text-center">
+        <div class="container py-5 py-md-5">
+            <p class="lead mb-4 legalito-gold">Smart software that is remarkably easy to use.</p>
+            <h2 class="font-sans">At Legalito, we're changing the face of conveyancing through a unique combination of smart
+                software and smart people. With over 15 years experience of legal work, we understand what lawyers need from
+                technology.</h2>
+            <a href="" class="btn btn-outline-dark">Get Started</a>
+        </div>
+    </div>
+
+    <div class="bg-black text-white">
         <div class="container py-5 py-md-6">
-            <h2 class="text-center mb-5">What people are saying…</h2>
+            <h2 class="text-center mb-5">Built with lawyers in mind</h2>
             <div class="row gy-4">
                 <div class="col-md">
-                    <blockquote class="text-center">
-                        <img src="{{ asset('img/tim-schoch.jpg') }}" class="avatar avatar-lg mb-3" alt="Tim Schoch">
-                        <cite class="d-block h5 fst-normal mb-1">Tim Schoch</cite>
-                        <span class="small text-muted text-uppercase">Designer</span>
-                        <p class="quote text-muted mt-3 mb-0">Legalito theme is great. It really saves me time and
-                            effort. Thank you so much for your help</p>
-                    </blockquote>
-                </div>
-                <div class="col-md">
-                    <blockquote class="text-center">
-                        <img src="{{ asset('img/olive-mathews.jpg') }}" class="avatar avatar-lg mb-3" alt="Olive Mathews">
-                        <cite class="d-block h5 fst-normal mb-1">Olive Mathews</cite>
-                        <span class="small text-muted text-uppercase">Photographer</span>
-                        <p class="quote text-muted mt-3 mb-0">Legalito is great. I will refer everyone I know. This
-                            theme is worth much more than I paid. I'm loving it.</p>
-                    </blockquote>
-                </div>
-                <div class="col-md">
-                    <blockquote class="text-center">
-                        <img src="{{ asset('img/malan-alankara.jpg') }}" class="avatar avatar-lg mb-3" alt="Malan Alankara">
-                        <cite class="d-block h5 fst-normal mb-1">Malan Alankara</cite>
-                        <span class="small text-muted text-uppercase">Architect</span>
-                        <p class="quote text-muted mt-3 mb-0">Not able to tell you how happy I am with Focus. It's
-                            exactly what I've been looking for.</p>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container py-5 py-md-6">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xxl-8">
-                <h2 class="text-center mb-5">Frequently asked questions</h2>
-                <div class="accordion" id="accordionFaq">
-                    <div class="accordion-item">
-                        <h3 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed fs-4 fw-bold" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                                aria-controls="collapseOne">
-                                Do I need to know how to code to use this theme ?
-                            </button>
-                        </h3>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionFaq">
-                            <div class="accordion-body">
-                                Yes, you should have some familiarity with HTML and CSS. And to use the development
-                                tools, you need basic knowledge of the terminal/command line.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h3 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed fs-4 fw-bold" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                Can I use this theme for my clients?
-                            </button>
-                        </h3>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionFaq">
-                            <div class="accordion-body">
-                                Yes, the Bootstrap Themes license allows you to use the product for personal or for
-                                a client.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h3 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed fs-4 fw-bold" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                How do I get help with the theme?
-                            </button>
-                        </h3>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionFaq">
-                            <div class="accordion-body">
-                                Support for the theme is given for 6 months after you purchase the theme and is
-                                specific to questions around functionality, bugs, and basic implementation.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-white text-black">
-        <div class="container py-5 py-md-6">
-            <h2 class="text-center mb-5">Choose the license that suits your needs</h2>
-            <div class="row gy-4">
-                <div class="col-md">
-                    <div class="card text-center">
+                    <div class="card text-center pb-4">
                         <div class="card-header bg-light border-bottom-0 py-4">
-                            <h3 class="fw-normal mb-2">Standard</h3>
-                            <div class="d-flex justify-content-center">
-                                <span class="fs-4 mt-1">$</span>
-                                <span class="fs-2 fw-bold">49</span>
-                            </div>
-                            <span class="text-dark">Single Site</span>
+                            <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
+                            <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled text-muted">
-                                <li class="py-2">Use on one site</li>
-                                <li class="py-2">Use for personal or a client</li>
-                                <li class="py-2">Technical support</li>
+                                <li class="py-2">Only pay for when you use it</li>
+                                <li class="py-2">USP 2</li>
+                                <li class="py-2">USP 3</li>
+                                <li class="py-2">USP 4</li>
                             </ul>
+                            <a href="" class="btn btn-outline-dark">Try it out for free</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card text-center">
-                        <div class="card-header bg-primary border-bottom-0 py-4">
-                            <h3 class="fw-normal mb-2">Multisite</h3>
-                            <div class="d-flex justify-content-center">
-                                <span class="fs-4 mt-1">$</span>
-                                <span class="fs-2 fw-bold">149</span>
-                            </div>
-                            <span class="text-dark">Unlimited Sites</span>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled text-muted">
-                                <li class="py-2">Use on unlimited sites</li>
-                                <li class="py-2">Use for personal or a client</li>
-                                <li class="py-2">Technical support</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card text-center">
+                    <div class="card text-center pb-4">
                         <div class="card-header bg-light border-bottom-0 py-4">
-                            <h3 class="fw-normal mb-2">Extended</h3>
-                            <div class="d-flex justify-content-center">
-                                <span class="fs-4 mt-1">$</span>
-                                <span class="fs-2 fw-bold">490</span>
-                            </div>
-                            <span class="text-dark">For paying users</span>
+                            <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
+                            <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled text-muted">
-                                <li class="py-2">Use on one site</li>
-                                <li class="py-2">Paying users allowed</li>
-                                <li class="py-2">Technical support</li>
+                                <li class="py-2">Only pay for when you use it</li>
+                                <li class="py-2">USP 2</li>
+                                <li class="py-2">USP 3</li>
+                                <li class="py-2">USP 4</li>
                             </ul>
+                            <a href="" class="btn btn-outline-dark">Try it out for free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center pb-4">
+                        <div class="card-header bg-light border-bottom-0 py-4">
+                            <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
+                            <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled text-muted">
+                                <li class="py-2">Only pay for when you use it</li>
+                                <li class="py-2">USP 2</li>
+                                <li class="py-2">USP 3</li>
+                                <li class="py-2">USP 4</li>
+                            </ul>
+                            <a href="" class="btn btn-outline-dark">Try it out for free</a>
                         </div>
                     </div>
                 </div>
@@ -238,11 +111,158 @@
         </div>
     </div>
 
-    <div class="bg-primary text-dark text-center">
-        <div class="container py-5 py-md-6">
-            <h2 class="font-sans">Legalito is mobile-ready, flexible, and cross-browser</h2>
-            <p class="lead mb-4">Impress your audiences with memorable pages that showcase your works</p>
-            <a href="" class="btn btn-outline-dark">Subscribe Now</a>
+    <div class="container my-3 py-3">
+        <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="col-lg-6">
+                <a href="#0" class="d-inline-block">
+                    <figure class="img-overlay mb-0">
+                        <img src="{{ asset('img/whoarewe_legalito.png') }}" alt="Who are We" class="img-thumbnail"
+                            width="800" height="550">
+                        <div class="img-hover">
+                            <div class="img-text">View Product</div>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-5">
+                <p class="my-4 legalito-gold">Who are we?</p>
+                <h2 class="fw-normal">We know conveyancy</h2>
+                <p class="fw-light text-light">Lorem ispum goes here as a brief paragraph describing legalito Lorem ispum
+                    goes here as a brief paragraph describing legalito Lorem ispum goes here as a brief paragraph describing
+                    legalito Lorem ispum goes here as a brief paragraph describing legalito.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 py-md-5">
+        <h2 class="text-center mb-4">Our Expertise</h2>
+        <div class="row gy-4">
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block h5 fst-normal mb-1 display-1">12</cite>
+                    <span class="small text-muted text-uppercase">Years Establised</span>
+                </blockquote>
+            </div>
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block h5 fst-normal mb-1 display-1">12</cite>
+                    <span class="small text-muted text-uppercase">Years Establised</span>
+                </blockquote>
+            </div>
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block h5 fst-normal mb-1 display-1">12</cite>
+                    <span class="small text-muted text-uppercase">Years Establised</span>
+                </blockquote>
+            </div>
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block h5 fst-normal mb-1 display-1">12</cite>
+                    <span class="small text-muted text-uppercase">Years Establised</span>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white">
+        <div class="container py-5 py-md-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-xxl-6" style="align-self: center">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class=" legalito-font">This is a quote or review from a trusted client who we want to
+                                promote as
+                                being endorsers of legalito!</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-n2">Quote Author</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-xxl-6">
+                    <ul class="row list-unstyled gx-0 px-xl-4 mt-4">
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                        </li>
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                        </li>
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-sm-6 col-xl-4 mb-4">
+                            <figure class="img-scale">
+                                <div class="img-wrap mb-3">
+                                    <img src="{{ asset('img/partnershiplogo.png') }}" width="150" height="auto"
+                                        alt="Partner Logo" class="img-fluid">
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="col-lg-6 order-lg-2">
+                <a href="#0" class="d-inline-block">
+                    <figure class="img-overlay mb-0">
+                        <img src="{{ asset('img/whyus_legalito.png') }}" alt="Legalito" class="img-thumbnail"
+                            width="800" height="550">
+                        <div class="img-hover">
+                            <p class="img-text">View Product</p>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-5 order-lg-1">
+                <p class="my-4 legalito-gold">Why us?</p>
+                <h2 class="fw-normal">We create Solutions</h2>
+                <p class="fw-light text-light">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <a href="#0" class="link-underline">View Product</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black text-light text-center">
+        <div class="container py-3 py-md-3 pb-5">
+            <p class="lead mb-4 legalito-gold">We are new</p>
+            <h2 class="font-sans">Join our early adopters</h2>
+            <p class="lead mb-4">Lorem ispum goes here as a brief paragraph describing legalito Lorem ispum goes here as a
+                brief paragraph describing legalito Lorem ispum goes here as a brief paragraph describing legalito Lorem
+                ispum goes here as a brief paragraph describing legalito </p>
+            <a href="" class="btn btn-outline-dark">Sign Up Now</a>
         </div>
     </div>
 @endsection

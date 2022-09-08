@@ -1,7 +1,23 @@
-<footer class="bg-light text-dark">
+<footer class="bg-dark text-light">
     <div class="container py-5 py-md-6">
         <div class="row justify-content-md-between">
-            <div class="col-4 col-md-2">
+            <div class="col-sm-12 col-md-6 mt-4 mt-md-0">
+                <h2 class="h6 mb-3">Contact Us</h2>
+                <p class="text-secondary">
+                    {{-- <a href="https://app.legalito.co.uk/" target="_blank" rel="noopener"> --}}
+                    We are available to chat.
+                    {{-- </a> --}}
+                </p>
+                <div class="row mt-4">
+                    <div class="col-6">
+                        <p><i class="material-icons mr-2 legalito-gold" aria-hidden="true">phone</i> <a class="legalito-font" href="tel:+44123456888">+44 [Phone]</a></p>
+                    </div>
+                    <div class="col-6">
+                        <p><i class="material-icons mr-2 legalito-gold" aria-hidden="true">mail</i> <a class="legalito-font" href="mailto:email@address.com">email@address.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 mt-4 mt-md-0">
                 <h2 class="h6">About</h2>
                 <ul class="nav flex-column">
                     <li class="mb-1">
@@ -14,28 +30,11 @@
                         <a href="#" class="link-secondary">Blog</a>
                     </li>
                     <li class="mb-1">
-                        <a href="#" class="link-secondary">Privacy Policy</a>
+                        <a href="#" class="link-secondary">Our Products</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-4 col-md-2">
-                <h2 class="h6 mb-3">Services</h2>
-                <ul class="nav flex-column">
-                    <li class="mb-1">
-                        <a href="#" class="link-secondary">Branding</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#" class="link-secondary">Design</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#" class="link-secondary">Photography</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#" class="link-secondary">UX/UI</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-4 col-md-2">
+            <div class="col-6 col-md-2 mt-4 mt-md-0">
                 <h2 class="h6 mb-3">Social</h2>
                 <ul class="nav flex-column">
                     <li class="mb-1">
@@ -52,10 +51,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
-                <h2 class="h6 mb-3">Company</h2>
-                <p class="text-secondary"><a href="https://app.legalito.co.uk/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
-            </div>
         </div>
+        {{-- <div class="row justify-content-md-between">
+            <div class="col-6">
+                <p><i class="material-icons mr-2 legalito-gold" aria-hidden="true">phone</i> <a href="tel:+44123456888">+44 [Phone]</a></p>
+            </div>
+            <div class="col-6">
+                <p><i class="material-icons mr-2 legalito-gold" aria-hidden="true">phone</i> <a href="tel:+44123456888">+44 [Phone]</a></p>
+            </div>
+        </div> --}}
     </div>
 </footer>

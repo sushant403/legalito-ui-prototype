@@ -6,13 +6,13 @@
     <div class="container py-5">
         <div class="col-xxl-10">
             <p class="my-4 legalito-gold">We know conveyancing.</p>
-            <div class="border border-2 border-light w-25 my-4"></div>
             <h1 class="display-1">Legalito.</h1>
         </div>
         <div class="col-lg-10 col-xxl-8">
             <p class="font-serif lead mb-4 text-light">
-                We deliver software that makes conveyancing more efficient.
-                Years of experience enables us to solve the tricky issues first.</p>
+                Introducing genuinely innovative technology is essential for the future of conveyancing. It requires the
+                rare combination of experience and expertise. Legalito is the first provider that specialises in giving
+                property lawyers intelligent software that will actually improve the way they work.</p>
         </div>
     </div>
 
@@ -58,7 +58,8 @@
                         <div class="card-header bg-light border-bottom-0 py-4">
                             <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
                             <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
-                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the
+                                lawyer.</span>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled text-muted">
@@ -76,7 +77,8 @@
                         <div class="card-header bg-light border-bottom-0 py-4">
                             <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
                             <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
-                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the
+                                lawyer.</span>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled text-muted">
@@ -94,7 +96,8 @@
                         <div class="card-header bg-light border-bottom-0 py-4">
                             <p class="lead mb-4 legalito-gold pt-4">Tag Line</p>
                             <h3 class="fw-normal mb-4 text-dark">Smart Enquiry</h3>
-                            <span class="text-dark">This is a brief description of the product and how it works for you, the lawyer.</span>
+                            <span class="text-dark">This is a brief description of the product and how it works for you, the
+                                lawyer.</span>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled text-muted">

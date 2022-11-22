@@ -83,3 +83,28 @@
     font-family: Fira Sans;
     font-size: 2rem;
 }
+
+.has-bg-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-img-legalito {
+    background-image: url('../img/whyus_legalito.png');
+}
+.card{
+    box-shadow: -2px 4px 2px 1px #131313a6;
+}
+
+.card-img-overlay {
+    background-color: #081e2cc4;
+    color: white;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}

@@ -61,19 +61,19 @@
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Relevant Enquiry</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Enquiries relevant to property
                                             types</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Smart Response</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Automated intelligent
                                             answers</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Personal knowledge base</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
@@ -102,19 +102,19 @@
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Relevant Enquiry</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Enquiries relevant to property
                                             types</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Smart Response</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Automated intelligent
                                             answers</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Personal knowledge base</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
@@ -143,19 +143,19 @@
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Relevant Enquiry</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Enquiries relevant to property
                                             types</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Smart Response</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Automated intelligent
                                             answers</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons ms-2" aria-hidden="true">check</i>
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
                                         <strong>Personal knowledge base</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>

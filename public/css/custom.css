@@ -93,8 +93,12 @@
 .bg-img-legalito {
     background-image: url('../img/whyus_legalito.png');
 }
-.card{
+
+.card {
     box-shadow: -2px 4px 2px 1px #131313a6;
+}
+.card-body li{
+    font-size: 14px;
 }
 
 .card-img-overlay {
@@ -107,4 +111,12 @@
     right: 0;
     height: 100%;
     width: 100%;
+}
+
+.legalito-check {
+    background: #977b5d;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 14px;
+    color: #263542;
 }

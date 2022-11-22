@@ -3,7 +3,9 @@
 }
 
 .legalito-gold {
-    color: #87715a
+    color: #87715a;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
 }
 
 .legalito-font {
@@ -44,6 +46,7 @@
 .img-overlay:hover .img-text {
     opacity: 1
 }
+
 .img-legalito-overlay .img-hover,
 .img-legalito-overlay .img-text {
     opacity: 1
@@ -51,4 +54,32 @@
 
 .img-overlay:hover .img-text {
     transform: translateY(0)
+}
+
+.legalito-button {
+    width: auto;
+    height: 50px;
+    /* margin: 64px 252px 0 252px; */
+    padding: 16px 50px;
+    border-radius: 4px;
+    border: solid 1px #87715a;
+    background-color: #87715a;
+    font-size: 16px;
+}
+
+.legalito-button-outline {
+    width: auto;
+    height: 50px;
+    padding: 16px 50px;
+    border-radius: 4px;
+    border: solid 1px #87715a;
+    color: #87715a;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.legalito-expertise {
+    color: #374f5e;
+    font-family: Fira Sans;
+    font-size: 2rem;
 }

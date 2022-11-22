@@ -15,4 +15,9 @@ class RoutesController extends Controller
     {
         return view('contact');
     }
+
+    public function policy()
+    {
+        return view('policy');
+    }
 }

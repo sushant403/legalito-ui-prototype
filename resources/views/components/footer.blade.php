@@ -25,7 +25,7 @@
                     <small class="mb-3">&copy; 2022 Legalito</small>
                 </div>
                 <div class="col-6 col-md-6 pt-3 mt-md-0" style="text-align: right">
-                    <a href="/privacy" rel="noopener">
+                    <a href="{{ route('policy') }}" rel="noopener">
                         <small class="mb-3">Privacy Policy</small>
                     </a>
                 </div>

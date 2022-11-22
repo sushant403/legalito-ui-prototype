@@ -3,80 +3,127 @@
 @section('description')
 
 @section('content')
-    <div class="container py-4 py-md-5">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8">
-                <h1>Legalator 5000</h1>
-                <div class="border border-3 border-light w-15 my-4"></div>
-                <div class="d-flex align-items-center mb-4">
-                    <div class="fst-italic small text-light"><a href="#">Author Name</a></div>
-                    <div class="small text-light ms-auto">Maybe a TimeStamp</div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-12">
-                <img src="{{ asset('img/home-legalito.png') }}" class="img-fluid mb-5" alt="Yellow and green leafed trees"
-                    width="1280" height="850">
-            </div>
+    <div class="container py-5 text-center mx-auto">
+        <div class="col-xxl-8 mx-auto">
+            <p class="my-4 legalito-gold">Legalito Smart Enquiries</p>
+            <h3 class="display-6">Shining a light into the black hole of coneyancing</h3>
         </div>
-
-        <div class="row justify-content-center">
-
+        <div class="col-lg-12 col-xxl-8 mx-auto">
+            <p class="font-serif lead mb-5 text-light">
+                For decades, lawyers have been struggling with the management of pre-contract enquiries. It is a painful and
+                opaque process in which everyone involved in the transaction struggles to understand progress, resulting in
+                frustration and confusion.
+                <br><br>
+                It is no wonder it has been dubbed “The black hole of conveyancing”.
+            </p>
+            <a href="{{ route('product') }}" class="legalito-button">Try it now - for free</a>
         </div>
     </div>
-    <div class="bg-black text-white">
-        <div class="container py-3">
-            <div class="bg-black mt-n5 mt-md-n6 px-3 px-md-0">
-                <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
-                    
-                    <p class="fw-light fs-5">This is a sample intro paragraph and can be used to introduce readers to
-                        the product. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.</p>
-                    <div class="col-lg-6">
-                        <a href="#0" class="d-inline-block">
-                            <figure class="img-overlay mb-0">
-                                <img src="{{ asset('img/whoarewe_legalito.png') }}" alt="Who are We" class="img-thumbnail"
-                                    width="800" height="550">
-                                <div class="img-hover">
-                                    <div class="img-text">View Product</div>
-                                </div>
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="col-lg-5">
-                        <p class="my-4 legalito-gold">Who are we?</p>
-                        <h2 class="fw-normal">We know conveyancy</h2>
-                        <p class="fw-light text-light">Lorem ispum goes here as a brief paragraph describing legalito Lorem ispum
-                            goes here as a brief paragraph describing legalito Lorem ispum goes here as a brief paragraph describing
-                            legalito Lorem ispum goes here as a brief paragraph describing legalito.</p>
-                    </div>
+
+    <div class="container my-5">
+        <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="col-lg-10 order-lg-2">
+                <figure class="img-overlay mb-0">
+                    <img src="{{ asset('img/product_smart.png') }}" alt="Legalito" class="img-thumbnail" width="2000">
+                </figure>
+            </div>
+            <div class="col order-lg-1">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5 mb-4">
+        <div class="row">
+            <h5 class="text-center mb-4 col-lg-8 mx-auto">Bold solutions in a simple system</h5>
+            <p class="lead mb-5 col-lg-8 mx-auto text-center">Smart enquiries was engineered to address key problems faced.
+                Our innovated platform
+                streamlines communicaiton, increases productivity and decreases effort-duplication.</p>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise"><img
+                            src="{{ asset('img/relevant_enquiries.png') }}" alt="Legalito Solutions"></cite>
+                    <span class="small" style="font-family: PlayfairDisplay; font-size: 18px">Relevant Enquiries</span>
+                    <p class="small lead mt-3" style="font-size: 14px">Recommends enquiries relevant to the property type –
+                        reduces the number of enquiries that cause such frustration amongst lawyers today</p>
+                </blockquote>
+            </div>
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block mb-4 h5 fst-normal mb-1 display-6 legalito-expertise"><img
+                            src="{{ asset('img/smart_response.png') }}" alt="Legalito Solutions"></cite>
+                    <span class="small" style="font-family: PlayfairDisplay; font-size: 18px">Smart Responses</span>
+                    <p class="small lead mt-3" style="font-size: 14px">Learns from responses to previous enquiries for
+                        similar property types to give suggested answers to enquiries that have previously been asked</p>
+
+                </blockquote>
+            </div>
+            <div class="col-md">
+                <blockquote class="text-center">
+                    <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise"><img
+                            src="{{ asset('img/enquiry_libraries.png') }}" alt="Legalito Solutions"></cite>
+                    <span class="small" style="font-family: PlayfairDisplay; font-size: 18px">Enquiry Libraries</span>
+                    <p class="small lead mt-3" style="font-size: 14px">Lawyers can create their own favourite sets of
+                        enquiries for different property types, streamlining the process and reducing learning times for new
+                        lawyers</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black text-light text-center py-5" style="background: #052336">
+        <div class="container my-3 py-3">
+            <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+                <div class="col-lg-6">
+                    <figure class="img-overlay mb-0">
+                        <img src="{{ asset('img/product_designed_for_you.png') }}" alt="Who are We" class="img-thumbnail"
+                            width="800" height="550">
+                    </figure>
                 </div>
-                <div class="row justify-content-center py-4 py-md-4">
-                    <div class="col-md-12 col-lg-12">
-        
-                        <h2>What USPS to call out? </h2>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint <a href="#">occaecat cupidatat</a> non proident, sunt in culpa
-                            qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
-                        <figure class="ms-5">
-                            <blockquote class="blockquote">
-                                <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit integer
-                                    posuere erat a ante.</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer text-muted mt-n2">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </figcaption>
-                        </figure>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
-                        <hr class="bg-muted my-4">
-                        <h3 class="visually-hidden">Tags</h3>
-                        <a href="#" class="btn btn-sm btn-outline-dark me-2 mb-3">Design</a>
-                        <a href="#" class="btn btn-sm btn-outline-dark mb-3">Minimalism</a>
-                    </div>
+                <div class="col-lg-5">
+                    <small class="my-4 legalito-gold">Designed for you…</small>
+                    <h4 class="fw-normal">For teams of any size</h4>
+                    <small class="fw-light text-light">Designing software that property lawyers actually want to use is not
+                        straightforward. The developers have been creating innovative solutions for over 15 years that are
+                        the
+                        envy of other firms..</small>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container my-4">
+            <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+                <div class="col-lg-6 order-lg-2">
+                    <figure class="img-overlay mb-0">
+                        <img src="{{ asset('img/product_when_you_need_it.png') }}" alt="Legalito" class="img-thumbnail"
+                            width="800" height="550">
+                    </figure>
+                </div>
+                <div class="col-lg-5 order-lg-1">
+                    <small class="my-3 legalito-gold">… when you need it</small>
+                    <h4 class="fw-normal">Pay as you go</h4>
+                    <small class="fw-light text-light">All these features are available for a single monthly subscription
+                        per lawyer - though users are only charged for months in which they use the platform. There is no limit on
+                        how many cases it can be used with.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @include('components.product-pricing')
+
+    <div class="bg-black text-light text-center" style="background: #052336">
+        <div class="container py-6 py-md-6 pb-5">
+            <div class="row align-items-center">
+                <div class="col-lg-9 mx-auto">
+                    <p class="lead mb-3 legalito-gold">This is genuine innovation</p>
+                    <h5 class="font-normal">Want to bring change to the conveyancing process?</h5>
+                    <p class="lead mb-5">We know change will only come from solving the problems that are causing lawyers
+                        the
+                        biggest challenges today. Be part of the revolution - sign up and start making a difference.</p>
+                    <a href="{{ route('product') }}" class="legalito-button">Sign Up Now</a>
                 </div>
             </div>
         </div>

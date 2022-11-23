@@ -19,18 +19,14 @@
     <div class="container my-4">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-10 order-lg-2">
-                <a href="{{ route('product') }}" class="d-inline-block">
-                    <figure class="img-overlay mb-0">
-                        <img src="{{ asset('img/home-legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
-                            width="auto">
-                        <div class="img-hover">
-                            <p class="img-text">View Product</p>
-                        </div>
-                    </figure>
-                </a>
+                <figure class="img-overlay mb-0">
+                    <img src="{{ asset('img/home-legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
+                        width="auto">
+                
+                </figure>
             </div>
             <div class="col order-lg-1">
-                <img src="{{ asset('img/arrow-down.png') }}" width="60">
+                {{-- <img src="{{ asset('img/arrow-down.png') }}" width="60"> --}}
             </div>
         </div>
     </div>
@@ -39,8 +35,8 @@
     <div class="bg-black text-light text-center">
         <div class="container py-5 py-md-5">
             <p class="lead mb-4 legalito-gold">Smart people - Smart technology</p>
-            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've over 15 years' experience building
-                software that makes the work of property lawyers less stressful.</h1>
+            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've got years' experience building
+                software that makes the lives of conveyancers less stressful.</h1>
         </div>
     </div>
 
@@ -178,20 +174,16 @@
     <div class="container my-3 py-3">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-6">
-                <a href="{{ route('product') }}" class="d-inline-block">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/whoarewe_legalito_2.png') }}" alt="Who are We" class="img-thumbnail"
                             width="800" height="550">
-                        <div class="img-hover">
-                            <div class="img-text">View Product</div>
-                        </div>
+                        
                     </figure>
-                </a>
             </div>
             <div class="col-lg-5">
                 <small class="my-4 legalito-gold">Who are we</small>
-                <h4 class="fw-normal">We know conveyancy</h4>
-                <small class="fw-light text-light">Designing software that property lawyers actually want to use is not
+                <h4 class="fw-normal">We know conveyancing</h4>
+                <small class="fw-light text-light">Designing software that conveyancers lawyers actually want to use is not
                     straightforward. The developers have been creating innovative solutions for over 15 years that are the
                     envy of other firms. They have won multiple awards for their brilliant technology and their thorough
                     grasp of the complexities of the conveyancing process. They know the issues involved and that the
@@ -207,19 +199,19 @@
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 500 000</cite>
-                    <span class="small">Enquiries Raised</span>
+                    <span class="small">Enquiries raised</span>
                 </blockquote>
             </div>
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 450 000</cite>
-                    <span class="small">Enquiries Answered</span>
+                    <span class="small">Enquiries answered</span>
                 </blockquote>
             </div>
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 25 000</cite>
-                    <span class="small">Cases Comleted</span>
+                    <span class="small">Cases comleted</span>
                 </blockquote>
             </div>
             <div class="col-md">
@@ -235,15 +227,11 @@
     <div class="container my-4">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-6 order-lg-2">
-                <a href="{{ route('product') }}" class="d-inline-block">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/whyus_legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
                             width="800" height="550">
-                        <div class="img-hover">
-                            <p class="img-text">View Product</p>
-                        </div>
+                        
                     </figure>
-                </a>
             </div>
             <div class="col-lg-5 order-lg-1">
                 <small class="my-3 legalito-gold">Why us?</small>

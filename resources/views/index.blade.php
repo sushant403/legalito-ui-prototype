@@ -50,7 +50,7 @@
     <div class="bg-black text-light text-center">
         <div class="container py-5 py-md-5">
             <p class="lead mb-4 legalito-gold">Smart people - Smart technology</p>
-            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've got years' experience building
+            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've got years of experience building
                 software that makes the lives of conveyancers less stressful.</h1>
         </div>
     </div>
@@ -60,7 +60,7 @@
             <h4 class="text-center mb-5">Designed from years of experience</h4>
             <div class="row gy-4 row-eq-height">
                 <div class="col-md">
-                    <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
+                    <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.5;">
                         <div class="card-img-overlay text-light card-img-ovelay-disabled">
                             <div class="card-header border-bottom-0 py-4">
                                 <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">&nbsp;&nbsp;&nbsp; Never miss another task again &nbsp;&nbsp;&nbsp;</small>
@@ -142,38 +142,38 @@
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
-                        <div class="card-img-overlay text-light card-img-ovelay-disabled">
-                            <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
-                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Matters</h3>
-                                <span class="text-light">Effectively overload by allocating the right number of cases at the right time.</span>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-unstyled text-muted">
-                                    <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Relevant Enquiry</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Enquiries relevant to property
-                                            types</span>
-                                    </li>
-                                    <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Case task analysis</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Use with smart Checklists to prompt next action</span>
-                                    </li>
-                                    <li class="py-2 text-light" style="text-align: left">
-                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>CMS integration</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Integrates with leading case management systems</span>
-                                    </li>
-                                </ul>
-                                <div class="pb-4" style="padding-bottom: 170px !important">
-                                    
+                        <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.5;">
+                            <div class="card-img-overlay text-light card-img-ovelay-disabled">
+                                <div class="card-header border-bottom-0 py-4">
+                                    <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
+                                    <h3 class="fw-normal py-2 mb-2 text-light">Smart Matters</h3>
+                                    <span class="text-light">Effectively overload by allocating the right number of cases at the right time.</span>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled text-muted">
+                                        <li class="py-2 text-light" style="text-align: left">
+                                            <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
+                                            <strong>Relevant Enquiry</strong> <br>
+                                            <span style="font-size: smaller;margin-left:1.8rem">Enquiries relevant to property
+                                                types</span>
+                                        </li>
+                                        <li class="py-2 text-light" style="text-align: left">
+                                            <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
+                                            <strong>Case task analysis</strong> <br>
+                                            <span style="font-size: smaller;margin-left:1.8rem">Use with smart Checklists to prompt next action</span>
+                                        </li>
+                                        <li class="py-2 text-light" style="text-align: left">
+                                            <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
+                                            <strong>CMS integration</strong> <br>
+                                            <span style="font-size: smaller;margin-left:1.8rem">Integrates with leading case management systems</span>
+                                        </li>
+                                    </ul>
+                                    <div class="pb-4" style="padding-bottom: 170px !important">
+                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

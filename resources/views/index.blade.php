@@ -61,9 +61,9 @@
             <div class="row gy-4 row-eq-height">
                 <div class="col-md">
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
-                        <div class="card-img-overlay text-light">
+                        <div class="card-img-overlay text-light card-img-ovelay-disabled">
                             <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Never miss another task again</small>
+                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">&nbsp;&nbsp;&nbsp; Never miss another task again &nbsp;&nbsp;&nbsp;</small>
                                 <h3 class="fw-normal py-2 mb-2 text-light">Smart Checklists</h3>
                                 <span class="text-light">Ensures critical conveyancing tasks are always completed.</span>
                             </div>
@@ -77,19 +77,18 @@
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
                                         <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Smart Response</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Automated intelligent
-                                            answers</span>
+                                        <strong>Personalized Versions</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Adjust to use your own checklist items</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
                                         <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Personal knowledge base</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
+                                        <strong>Dynamic Checklists</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Automatically adjusts to reflect case changes.</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
                                         <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Personal knowledge base</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
+                                        <strong>Pre-set Templates</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Over 500 tasks provided as standard</span>
                                     </li>
                                 </ul>
                                 <div class="pb-4">
@@ -144,7 +143,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
-                        <div class="card-img-overlay text-light">
+                        <div class="card-img-overlay text-light card-img-ovelay-disabled">
                             <div class="card-header border-bottom-0 py-4">
                                 <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
                                 <h3 class="fw-normal py-2 mb-2 text-light">Smart Matters</h3>
@@ -160,14 +159,13 @@
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
                                         <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Smart Response</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Automated intelligent
-                                            answers</span>
+                                        <strong>Case task analysis</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Use with smart Checklists to prompt next action</span>
                                     </li>
                                     <li class="py-2 text-light" style="text-align: left">
                                         <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
-                                        <strong>Personal knowledge base</strong> <br>
-                                        <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
+                                        <strong>CMS integration</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Integrates with leading case management systems</span>
                                     </li>
                                 </ul>
                                 <div class="pb-4" style="padding-bottom: 170px !important">
@@ -264,7 +262,7 @@
                     <p class="lead mb-5">We know change will only come from solving the problems that are causing lawyers
                         the
                         biggest challenges today. Be part of the revolution - sign up and start making a difference.</p>
-                    <a href="{{ route('product') }}" class="legalito-button">Sign Up Now</a>
+                    <a href="{{ route('product') }}" class="legalito-button shortened">Sign Up Now</a>
                 </div>
             </div>
         </div>

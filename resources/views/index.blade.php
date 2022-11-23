@@ -3,6 +3,21 @@
 @section('description')
 
 @section('content')
+
+    <style>
+        .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+    }
+    .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    }
+    </style>
+
     <div class="container py-5">
         <div class="col-xxl-10">
             <p class="my-4 legalito-gold">We know conveyancing.</p>
@@ -43,16 +58,14 @@
     <div class="bg-black text-white">
         <div class="container py-5 py-md-6">
             <h4 class="text-center mb-5">Designed from years of experience</h4>
-            <div class="row gy-4">
+            <div class="row gy-4 row-eq-height">
                 <div class="col-md">
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                         <div class="card-img-overlay text-light">
                             <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Streamlining pre-contract
-                                    enquiries</small>
-                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Enquiries</h3>
-                                <span class="text-light">Removes the guesswork and stress from enquiry
-                                    handling.</span>
+                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Never miss another task again</small>
+                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Checklists</h3>
+                                <span class="text-light">Ensures critical conveyancing tasks are always completed.</span>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
@@ -73,13 +86,16 @@
                                         <strong>Personal knowledge base</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
+                                    <li class="py-2 text-light" style="text-align: left">
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
+                                        <strong>Personal knowledge base</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
+                                    </li>
                                 </ul>
                                 <div class="pb-4">
                                     <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
-                                        style="padding: 16px 110px">Learn More</a>
+                                        style="padding: 16px 110px">CTA</a>
                                     <br><br><br>
-                                    <a href="{{ route('product') }}" class="legalito-button" style="padding: 16px 80px">Try it
-                                        now - for free</a>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +131,7 @@
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
                                 </ul>
-                                <div class="pb-4">
+                                <div class="pb-4" style="padding-bottom: 70px !important">
                                     <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
                                         style="padding: 16px 110px">Learn More</a>
                                     <br><br><br>
@@ -130,11 +146,9 @@
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                         <div class="card-img-overlay text-light">
                             <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Streamlining pre-contract
-                                    enquiries</small>
-                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Enquiries</h3>
-                                <span class="text-light">Removes the guesswork and stress from enquiry
-                                    handling.</span>
+                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
+                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Matters</h3>
+                                <span class="text-light">Effectively overload by allocating the right number of cases at the right time.</span>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
@@ -156,12 +170,8 @@
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
                                 </ul>
-                                <div class="pb-4">
-                                    <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
-                                        style="padding: 16px 110px">Learn More</a>
-                                    <br><br><br>
-                                    <a href="{{ route('product') }}" class="legalito-button" style="padding: 16px 80px">Try it
-                                        now - for free</a>
+                                <div class="pb-4" style="padding-bottom: 170px !important">
+                                    
                                 </div>
                             </div>
                         </div>

@@ -3,6 +3,21 @@
 @section('description')
 
 @section('content')
+
+    <style>
+        .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+    }
+    .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    }
+    </style>
+
     <div class="container py-5">
         <div class="col-xxl-10">
             <p class="my-4 legalito-gold">We know conveyancing.</p>
@@ -19,18 +34,14 @@
     <div class="container my-4">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-10 order-lg-2">
-                <a href="{{ route('product') }}" class="d-inline-block">
-                    <figure class="img-overlay mb-0">
-                        <img src="{{ asset('img/home-legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
-                            width="auto">
-                        <div class="img-hover">
-                            <p class="img-text">View Product</p>
-                        </div>
-                    </figure>
-                </a>
+                <figure class="img-overlay mb-0">
+                    <img src="{{ asset('img/home-legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
+                        width="auto">
+                
+                </figure>
             </div>
             <div class="col order-lg-1">
-                <img src="{{ asset('img/arrow-down.png') }}" width="60">
+                {{-- <img src="{{ asset('img/arrow-down.png') }}" width="60"> --}}
             </div>
         </div>
     </div>
@@ -39,24 +50,22 @@
     <div class="bg-black text-light text-center">
         <div class="container py-5 py-md-5">
             <p class="lead mb-4 legalito-gold">Smart people - Smart technology</p>
-            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've over 15 years' experience building
-                software that makes the work of property lawyers less stressful.</h1>
+            <h1 class="col-lg-8 mx-auto" style="line-height: 3rem; font-weight:400">We've got years' experience building
+                software that makes the lives of conveyancers less stressful.</h1>
         </div>
     </div>
 
     <div class="bg-black text-white">
         <div class="container py-5 py-md-6">
             <h4 class="text-center mb-5">Designed from years of experience</h4>
-            <div class="row gy-4">
+            <div class="row gy-4 row-eq-height">
                 <div class="col-md">
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                         <div class="card-img-overlay text-light">
                             <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Streamlining pre-contract
-                                    enquiries</small>
-                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Enquiries</h3>
-                                <span class="text-light">Removes the guesswork and stress from enquiry
-                                    handling.</span>
+                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Never miss another task again</small>
+                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Checklists</h3>
+                                <span class="text-light">Ensures critical conveyancing tasks are always completed.</span>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
@@ -77,13 +86,16 @@
                                         <strong>Personal knowledge base</strong> <br>
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
+                                    <li class="py-2 text-light" style="text-align: left">
+                                        <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
+                                        <strong>Personal knowledge base</strong> <br>
+                                        <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
+                                    </li>
                                 </ul>
                                 <div class="pb-4">
                                     <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
-                                        style="padding: 16px 110px">Learn More</a>
+                                        style="padding: 16px 110px">CTA</a>
                                     <br><br><br>
-                                    <a href="{{ route('product') }}" class="legalito-button" style="padding: 16px 80px">Try it
-                                        now - for free</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +131,7 @@
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
                                 </ul>
-                                <div class="pb-4">
+                                <div class="pb-4" style="padding-bottom: 70px !important">
                                     <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
                                         style="padding: 16px 110px">Learn More</a>
                                     <br><br><br>
@@ -134,11 +146,9 @@
                     <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                         <div class="card-img-overlay text-light">
                             <div class="card-header border-bottom-0 py-4">
-                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Streamlining pre-contract
-                                    enquiries</small>
-                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Enquiries</h3>
-                                <span class="text-light">Removes the guesswork and stress from enquiry
-                                    handling.</span>
+                                <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
+                                <h3 class="fw-normal py-2 mb-2 text-light">Smart Matters</h3>
+                                <span class="text-light">Effectively overload by allocating the right number of cases at the right time.</span>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled text-muted">
@@ -160,12 +170,8 @@
                                         <span style="font-size: smaller;margin-left:1.8rem">Use your own enquiries</span>
                                     </li>
                                 </ul>
-                                <div class="pb-4">
-                                    <a href="{{ route('product') }}" class="legalito-button-outline mb-3"
-                                        style="padding: 16px 110px">Learn More</a>
-                                    <br><br><br>
-                                    <a href="{{ route('product') }}" class="legalito-button" style="padding: 16px 80px">Try it
-                                        now - for free</a>
+                                <div class="pb-4" style="padding-bottom: 170px !important">
+                                    
                                 </div>
                             </div>
                         </div>
@@ -178,20 +184,16 @@
     <div class="container my-3 py-3">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-6">
-                <a href="{{ route('product') }}" class="d-inline-block">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/whoarewe_legalito_2.png') }}" alt="Who are We" class="img-thumbnail"
                             width="800" height="550">
-                        <div class="img-hover">
-                            <div class="img-text">View Product</div>
-                        </div>
+                        
                     </figure>
-                </a>
             </div>
             <div class="col-lg-5">
                 <small class="my-4 legalito-gold">Who are we</small>
-                <h4 class="fw-normal">We know conveyancy</h4>
-                <small class="fw-light text-light">Designing software that property lawyers actually want to use is not
+                <h4 class="fw-normal">We know conveyancing</h4>
+                <small class="fw-light text-light">Designing software that conveyancers lawyers actually want to use is not
                     straightforward. The developers have been creating innovative solutions for over 15 years that are the
                     envy of other firms. They have won multiple awards for their brilliant technology and their thorough
                     grasp of the complexities of the conveyancing process. They know the issues involved and that the
@@ -207,19 +209,19 @@
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 500 000</cite>
-                    <span class="small">Enquiries Raised</span>
+                    <span class="small">Enquiries raised</span>
                 </blockquote>
             </div>
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 450 000</cite>
-                    <span class="small">Enquiries Answered</span>
+                    <span class="small">Enquiries answered</span>
                 </blockquote>
             </div>
             <div class="col-md">
                 <blockquote class="text-center">
                     <cite class="d-block mb-3 h5 fst-normal mb-1 display-6 legalito-expertise">~ 25 000</cite>
-                    <span class="small">Cases Comleted</span>
+                    <span class="small">Cases comleted</span>
                 </blockquote>
             </div>
             <div class="col-md">
@@ -235,15 +237,11 @@
     <div class="container my-4">
         <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
             <div class="col-lg-6 order-lg-2">
-                <a href="{{ route('product') }}" class="d-inline-block">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/whyus_legalito_2.png') }}" alt="Legalito" class="img-thumbnail"
                             width="800" height="550">
-                        <div class="img-hover">
-                            <p class="img-text">View Product</p>
-                        </div>
+                        
                     </figure>
-                </a>
             </div>
             <div class="col-lg-5 order-lg-1">
                 <small class="my-3 legalito-gold">Why us?</small>

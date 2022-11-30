@@ -60,7 +60,7 @@
             <h4 class="text-center mb-5">Designed from years of experience</h4>
             <div class="row gy-4 row-eq-height">
                 <div class="col-md">
-                    <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.5;">
+                    <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.45;">
                         <div class="card-img-overlay text-light card-img-ovelay-disabled">
                             <div class="card-header border-bottom-0 py-4">
                                 <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">&nbsp;&nbsp;&nbsp; Never miss another task again &nbsp;&nbsp;&nbsp;</small>
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-md">
-                        <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.5;">
+                        <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller;opacity: 0.45;">
                             <div class="card-img-overlay text-light card-img-ovelay-disabled">
                                 <div class="card-header border-bottom-0 py-4">
                                     <small class="lead legalito-gold pt-5" style="font-size: 0.75rem">Manage cases allocation effectively</small>
@@ -191,7 +191,7 @@
             <div class="col-lg-5">
                 <small class="my-4 legalito-gold">Who are we</small>
                 <h4 class="fw-normal">We know conveyancing</h4>
-                <small class="fw-light text-light">Designing software that conveyancers lawyers actually want to use is not
+                <small class="fw-light text-light">Designing software that conveyancers actually want to use is not
                     straightforward. The developers have been creating innovative solutions for over 15 years that are the
                     envy of other firms. They have won multiple awards for their brilliant technology and their thorough
                     grasp of the complexities of the conveyancing process. They know the issues involved and that the

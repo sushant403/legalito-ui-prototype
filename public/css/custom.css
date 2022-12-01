@@ -7,6 +7,9 @@
     font-weight: bolder;
     letter-spacing: 2.5px;
 }
+.legalito-blue{
+    color: #103c58; 
+}
 
 .legalito-font {
     font-size: 0.785rem
@@ -123,4 +126,10 @@
     padding: 3px;
     font-size: 14px;
     color: #263542;
+}
+.text-left{
+    text-align:left;
+}
+.text-right{
+    text-align: right;
 }

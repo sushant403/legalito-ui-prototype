@@ -10,7 +10,7 @@
             <div class="col-md">
                 <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                     <div class="card-img-overlay text-light">
-                        <div class="card-header border-bottom-0 py-4">
+                        <div class="card-header border-bottom-0 pt-4">
                             <small class="lead legalito-gold pt-5" style="font-size: 0.65rem">For everyone</small>
                             <h5 class="fw-normal py-2 mb-2 text-light">Responder Membership</h5>
                             <span class="text-light small">Available to all lawyers who want to take advantage of the
@@ -19,7 +19,7 @@
                             <span class="text-light">FREE for Life</span>
                             <hr>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body pt-2">
                             <ul class="list-unstyled text-muted" style="padding-left: 10px;">
                                 <li class="pt-2 text-light" style="text-align: left">
                                     <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
@@ -62,7 +62,7 @@
             <div class="col-md">
                 <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                     <div class="card-img-overlay text-light">
-                        <div class="card-header border-bottom-0 py-4">
+                        <div class="card-header border-bottom-0 pt-4">
                             <small class="lead legalito-gold pt-5" style="font-size: 0.65rem">For smaller firms with less than 5 users</small>
                             <h5 class="fw-normal py-2 mb-2 text-light">Creator Membership</h5>
                             <span class="text-light small">For all lawyers who want to raise and respond to the enquiries.</span>
@@ -70,7 +70,7 @@
                             <span class="text-light">£30 per user per month</span>
                             <hr>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body pt-2">
                             <ul class="list-unstyled text-muted" style="padding-left: 10px;">
                                 <li class="pt-2 text-light" style="text-align: left">
                                     <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>
@@ -112,7 +112,7 @@
             <div class="col-md">
                 <div class="card border-0 has-bg-img bg-img-legalito text-center" style="font-size:smaller">
                     <div class="card-img-overlay text-light">
-                        <div class="card-header border-bottom-0 py-4">
+                        <div class="card-header border-bottom-0 pt-4">
                             <small class="lead legalito-gold pt-5" style="font-size: 0.65rem">For larger firms with multiple teams</small>
                             <h5 class="fw-normal py-2 mb-2 text-light">Firm Membership</h5>
                             <span class="text-light small">For larger firms who want everyone to take advantage of the solution but without counting users</span>
@@ -120,7 +120,7 @@
                             <span class="text-light">£150 per month, unlimited users</span>
                             <hr>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body pt-2">
                             <ul class="list-unstyled text-muted" style="padding-left: 10px;">
                                 <li class="pt-2 text-light" style="text-align: left">
                                     <i class="material-icons legalito-check ms-2" aria-hidden="true">check</i>

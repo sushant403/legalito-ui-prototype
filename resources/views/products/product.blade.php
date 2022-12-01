@@ -74,7 +74,7 @@
 
     <div class="bg-black text-light text-center py-5" style="background: #052336">
         <div class="container my-3 py-3">
-            <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="row justify-content-lg-between align-items-center text-left gy-4 pb-5 pb-lg-6">
                 <div class="col-lg-6">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/product_designed_for_you.png') }}" alt="Who are We" class="img-thumbnail"
@@ -94,7 +94,7 @@
 
 
         <div class="container my-4">
-            <div class="row justify-content-lg-between align-items-center gy-4 pb-5 pb-lg-6">
+            <div class="row justify-content-lg-between align-items-center text-left gy-4 pb-5 pb-lg-6">
                 <div class="col-lg-6 order-lg-2">
                     <figure class="img-overlay mb-0">
                         <img src="{{ asset('img/product_when_you_need_it.png') }}" alt="Legalito" class="img-thumbnail"
